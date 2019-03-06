@@ -1,6 +1,6 @@
 from setuptools import setup
 
-import FIX.__version__ as v
+from FIX import __version__ as v
 
 def readme():
     with open('README.rst', 'r') as f:
