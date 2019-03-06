@@ -3,7 +3,7 @@ from setuptools import setup
 from FIX import __version__ as v
 
 def readme():
-    with open('README.rst', 'r') as f:
+    with open('README.md', 'r') as f:
         return f.read()
 
 setup(
