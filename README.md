@@ -11,6 +11,6 @@ Check out the jupyter notebook [HowTo.ipynb](https://nbviewer.jupyter.org/github
 
 ## Thanks...
 
-... for checking out the repository, I hope the algorithm as useful to you as to me -- it's been successfully applied to instability studies in the CERN Large Hadron Collider (and other machines) in both simulations and experiments.
+... for checking out the repository, I hope the algorithm is as useful to you as to me -- it's been successfully applied to instability studies in the CERN Large Hadron Collider (and other machines) in both simulations and experiments.
 
 2019, Adrian Oeftiger
