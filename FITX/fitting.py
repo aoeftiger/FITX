@@ -4,7 +4,7 @@ def get_envelope(x, y, window_size=256):
     '''Return rolling maximum of signal y along time x.'''
     xm = np.zeros(len(x) // window_size)
     ym = np.zeros(len(x) // window_size)
-    for i in xrange(0, len(x) - window_size, window_size):
+    for i in range(0, len(x) - window_size, window_size):
         xm[i // window_size] = i + np.argmax(y[i:i+window_size])
         ym[i // window_size] = np.max(y[i:i+window_size])
     return xm, ym
